@@ -5,25 +5,28 @@ import Whatsapp from "../../assets/icons/whatsapp.svg";
 
 export function Header() {
   return (
-    <header className="fixed z-10 h-16 w-full bg-brown/5 backdrop-blur-md flex items-center justify-between border-[1px] border-color-border">
+    <header
+      id="header"
+      className="fixed z-10 h-16 w-full bg-brown/5 backdrop-blur-md flex items-center justify-between border-[1px] border-color-border"
+    >
       <div className="max-w-[1170px] w-full mx-auto flex items-center justify-between">
         <img src={Logo} alt="Logo do site" />
 
         <nav className="mr-6 xl:flex items-center">
           <ul className="text-lg flex gap-4">
-            <li className="font-normal cursor-pointer">
-              <a href="">Home</a>
+            <li className="font-normal cursor-pointer hover:text-color-hover hover:font-bold">
+              <a href="#header">Home</a>
             </li>
-            <li className="font-normal cursor-pointer">
-              <a href="">Promoção</a>
+            <li className="font-normal cursor-pointer hover:text-color-hover hover:font-bold">
+              <a href="#ofertas">Promoção</a>
             </li>
-            <li className="font-normal cursor-pointer">
+            <li className="font-normal cursor-pointer hover:text-color-hover hover:font-bold">
               <a href="">Cardapio</a>
             </li>
-            <li className="font-normal cursor-pointer">
+            <li className="font-normal cursor-pointer hover:text-color-hover hover:font-bold">
               <a href="">Comentario</a>
             </li>
-            <li className="font-normal cursor-pointer">
+            <li className="font-normal cursor-pointer hover:text-color-hover hover:font-bold">
               <a href="">Contato</a>
             </li>
           </ul>

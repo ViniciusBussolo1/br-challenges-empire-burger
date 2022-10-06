@@ -7,6 +7,7 @@ import HeadSet from "./assets/icons/headset.svg";
 import Delivery from "./assets/icons/delivery.svg";
 
 import "./styles/main.css";
+import { Ofertas } from "./components/Ofertas/Ofertas";
 
 function App() {
   return (
@@ -34,26 +35,7 @@ function App() {
           />
         </div>
       </div>
-      <section className="max-w-[73.185rem] mt-[9rem] mx-auto">
-        <h1 className="text-[2rem] leading-[2.188rem] font-Lilita uppercase text-black">
-          Ofertas especiais
-        </h1>
-        <p className="text-[1rem] leading-[1.375rem] text-texto mt-[0.25rem]">
-          Aproveite todas as nossas ofertas, fiquem de olhos abertos, porque
-          sempre estamos mudando o nosso cardapio.
-        </p>
-        <div className="w-full grid grid-cols-[48.125rem_25rem] gap-1 mt-4">
-          <div className="bg-oferta-red w-[48.125rem] h-[26.875rem]">asdas</div>
-          <div className="place-self-center">
-            <div className="bg-oferta-yellow w-[23.185rem] h-[12.5rem]">
-              asdas
-            </div>
-            <div className="bg-oferta-brown w-[23.185rem] h-[12.5rem] mt-[1.875rem]">
-              asdas
-            </div>
-          </div>
-        </div>
-      </section>
+      <Ofertas />
     </>
   );
 }
