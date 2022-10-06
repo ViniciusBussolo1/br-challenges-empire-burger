@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         banner: "url(src/assets/banner-hero.png)",
+        "oferta-red": "url(src/assets/ofertas/oferta-1.png)",
+        "oferta-yellow": "url(src/assets/ofertas/oferta-2.png)",
+        "oferta-brown": "url(src/assets/ofertas/oferta-3.png)",
       },
       colors: {
         white: "#FFFFFF",
@@ -16,6 +19,7 @@ module.exports = {
         yellow: "#F59A1B",
         black: "rgba(29, 6, 5, 0.9)",
         brown: "rgba(59, 32, 11, 1)",
+        texto: "rgba(29, 6, 5, 0.69)",
         "color-button": "#F43127",
         "color-border": "rgba(60, 33, 12, 0.15)",
       },
