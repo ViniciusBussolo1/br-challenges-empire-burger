@@ -79,7 +79,7 @@ export function Ofertas() {
           <span className="text-[1.125rem] leading-[1.563rem] text-texto">
             Não esqueça de marcar a gente no Instagram:
           </span>
-          <span className="text-[1.751rem] leading-[1.75rem] text-color-button uppercase mt-[0.206rem]">
+          <span className="text-[1.751rem] leading-[1.75rem] text-color-button uppercase mt-[0.206rem] font-Lilita">
             #empireburger
           </span>
         </div>

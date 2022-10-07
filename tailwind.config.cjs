@@ -12,6 +12,7 @@ module.exports = {
         "oferta-red": "url(src/assets/ofertas/oferta-1.png)",
         "oferta-yellow": "url(src/assets/ofertas/oferta-2.png)",
         "oferta-brown": "url(src/assets/ofertas/oferta-3.png)",
+        "banner-cardapio": "url(src/assets/banner-menu.png)",
       },
       colors: {
         white: "#FFFFFF",
@@ -20,8 +21,8 @@ module.exports = {
         black: "rgba(29, 6, 5, 0.9)",
         brown: "rgba(59, 32, 11, 1)",
         texto: "rgba(29, 6, 5, 0.69)",
-        "color-hover": " #34201F",
         timer: "rgba(29, 6, 5, 0.2)",
+        "color-hover": " #34201F",
         "color-button": "#F43127",
         "color-border": "rgba(60, 33, 12, 0.15)",
         "color-oferta-h2": "rgba(255, 255, 255, 0.9)",
