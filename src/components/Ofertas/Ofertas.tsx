@@ -56,11 +56,10 @@ export function Ofertas() {
 
       <div className="mt-[4rem] flex items-center">
         <div className="w-[35.625rem] h-[8.183rem] bg-color-button rounded-[0.625rem] py-[1.156rem] pl-[1.394rem] pr-[4.81rem] flex items-center justify-between">
-          <img
-            src={Timer}
-            alt="Timer"
-            className="p-[1.401rem] bg-timer rounded-[3rem]"
-          />
+          <div className=" bg-timer rounded-[3rem] h-[5.927rem] w-[5.927rem] flex justify-center items-center">
+            <img src={Timer} alt="Timer" />
+          </div>
+
           <div className="h-[5.171rem] border-[1px] border-traco-funcionamento"></div>
           <div>
             <h2 className="text-[1.563rem] leading-[1.75rem] uppercase font-Lilita text-texto">

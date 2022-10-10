@@ -6,10 +6,12 @@ import Burger from "../src/assets/icons/burger.svg";
 import HeadSet from "../src/assets/icons/headset.svg";
 import Delivery from "../src/assets/icons/delivery.svg";
 
-import "./styles/main.css";
 import { Ofertas } from "./components/Ofertas/Ofertas";
 import { Cardapio } from "./components/Cardapio/Cardapio";
 import { Atendimento } from "./components/Atendimento/Atendimento";
+import { Entregas } from "./components/Entregas/Entregas";
+
+import "./styles/main.css";
 
 function App() {
   return (
@@ -40,6 +42,7 @@ function App() {
       <Ofertas />
       <Cardapio />
       <Atendimento />
+      <Entregas />
     </>
   );
 }

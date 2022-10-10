@@ -14,6 +14,7 @@ module.exports = {
         "oferta-brown": "url(src/assets/ofertas/oferta-3.png)",
         "banner-cardapio": "url(src/assets/banner-menu.png)",
         "card-woman-eating": "url(src/assets/card-woman-eating.png)",
+        "card-phone": "url(src/assets/card-phone.png)",
       },
       colors: {
         white: "#FFFFFF",
@@ -35,6 +36,7 @@ module.exports = {
       },
       dropShadow: {
         cardsShadow: "0px 4px 40px rgba(179, 155, 132, 0.5)",
+        cardEntregas: "0px 4px 40px rgba(179, 155, 132, 0.5)",
       },
     },
   },
