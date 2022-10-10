@@ -29,6 +29,7 @@ module.exports = {
         "color-oferta-span": "rgba(255, 255, 255, 0.69)",
         "traco-funcionamento": "rgba(29, 6, 5, 0.4)",
         "texto-funcionamento": "rgba(255, 255, 255, 0.85)",
+        "titulo-cardapio": "#FAE4D0",
       },
       dropShadow: {
         cardsShadow: "0px 4px 40px rgba(179, 155, 132, 0.5)",
