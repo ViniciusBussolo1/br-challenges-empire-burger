@@ -9,6 +9,7 @@ import Delivery from "../src/assets/icons/delivery.svg";
 import "./styles/main.css";
 import { Ofertas } from "./components/Ofertas/Ofertas";
 import { Cardapio } from "./components/Cardapio/Cardapio";
+import { Atendimento } from "./components/Atendimento/Atendimento";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       </div>
       <Ofertas />
       <Cardapio />
+      <Atendimento />
     </>
   );
 }

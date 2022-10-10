@@ -13,6 +13,7 @@ module.exports = {
         "oferta-yellow": "url(src/assets/ofertas/oferta-2.png)",
         "oferta-brown": "url(src/assets/ofertas/oferta-3.png)",
         "banner-cardapio": "url(src/assets/banner-menu.png)",
+        "card-woman-eating": "url(src/assets/card-woman-eating.png)",
       },
       colors: {
         white: "#FFFFFF",
@@ -22,6 +23,7 @@ module.exports = {
         brown: "rgba(59, 32, 11, 1)",
         texto: "rgba(29, 6, 5, 0.69)",
         timer: "rgba(29, 6, 5, 0.2)",
+        border: "rgba(29, 6, 5, 0.15)",
         "color-hover": " #34201F",
         "color-button": "#F43127",
         "color-border": "rgba(60, 33, 12, 0.15)",
