@@ -15,19 +15,19 @@ export function Header() {
         <nav className="mr-6 xl:flex items-center">
           <ul className="text-lg flex gap-4">
             <li className="font-normal cursor-pointer hover:text-color-hover hover:font-bold">
-              <a href="#header">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li className="font-normal cursor-pointer hover:text-color-hover hover:font-bold">
               <a href="#ofertas">Promoção</a>
             </li>
             <li className="font-normal cursor-pointer hover:text-color-hover hover:font-bold">
-              <a href="">Cardapio</a>
+              <a href="#cardapio">Cardapio</a>
             </li>
             <li className="font-normal cursor-pointer hover:text-color-hover hover:font-bold">
-              <a href="">Comentario</a>
+              <a href="#comentario">Comentario</a>
             </li>
             <li className="font-normal cursor-pointer hover:text-color-hover hover:font-bold">
-              <a href="">Contato</a>
+              <a href="#contato">Contato</a>
             </li>
           </ul>
         </nav>

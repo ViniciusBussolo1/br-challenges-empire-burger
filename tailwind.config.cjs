@@ -33,12 +33,16 @@ module.exports = {
         "traco-funcionamento": "rgba(29, 6, 5, 0.4)",
         "texto-funcionamento": "rgba(255, 255, 255, 0.85)",
         "titulo-cardapio": "#FAE4D0",
+        "texto-comentario": "#635352",
       },
       dropShadow: {
-        cardsShadow: "0px 4px 40px rgba(179, 155, 132, 0.5)",
-        cardEntregas: "0px 4px 40px rgba(179, 155, 132, 0.5)",
+        cardShadow: "0px 4px 40px rgba(179, 155, 132, 0.5)",
+      },
+      boxShadow: {
+        cardShadow: "0px 4px 40px rgba(179, 155, 132, 0.5)",
+        cardComentario: "0px 4px 25px rgba(60, 35, 13, 0.1)",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 };

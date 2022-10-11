@@ -11,7 +11,7 @@ export function Entregas() {
       <div className="mx-auto max-w-[73.031rem] h-[33.478rem] flex items-center">
         <div className="bg-card-phone w-[35.625rem] h-full"></div>
 
-        <div className="w-[35.59rem] h-[27.25rem] ">
+        <div className="w-[35.59rem] h-[27.25rem] ml-[1.816rem]">
           <h1 className="text-[2rem] leading-[2.188rem] uppercase font-Lilita text-black">
             Nossas Entregas
           </h1>

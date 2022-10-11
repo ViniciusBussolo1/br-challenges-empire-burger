@@ -1,7 +1,7 @@
 export function Atendimento() {
   return (
-    <section className="mx-auto h-[45rem] flex items-center justify-center border-[1px] border-border">
-      <div className="max-w-[73.185rem] flex items-center">
+    <section className="mx-auto h-[45rem] flex items-center justify-center">
+      <div className="max-w-[73.185rem] flex items-center border-b-[1px] border-border">
         <div className="bg-card-woman-eating bg-no-repeat h-[28.481rem] w-[35.625rem] "></div>
         <div className="ml-[2.091rem] pt-[15.528rem] pb-[10.753rem]">
           <h1 className="text-[2.608rem] leading-[3.2rem] font-Lilita uppercase tex-black w-[20.291rem]">

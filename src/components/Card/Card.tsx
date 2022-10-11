@@ -12,7 +12,7 @@ export function Card(props: CardPros) {
     <div className="w-[15rem] flex justify-between items-center">
       <img
         src={props.src}
-        alt="Burger"
+        alt={props.alt}
         className="bg-[#FAE2CB] p-[0.906rem] rounded-3xl"
       />
       <div className="w-[10.629rem] ml-[1.125rem]">

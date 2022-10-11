@@ -2,7 +2,7 @@ import { ItemCardapio } from "./ItemCardapio";
 
 export function Cardapio() {
   return (
-    <section className="mt-[4rem] w-full flex">
+    <section className="mt-[4rem] w-full flex" id="cardapio">
       <div className="bg-banner-cardapio w-[59.002rem] h-[35.957rem] pt-[10rem] pl-[23.438rem] pr-[6.84rem] pb-[11.645rem]">
         <div className="w-[30rem] ">
           <h1 className="uppercase font-Lilita text-[2.589rem] rounded-[2.875rem] text-brown">
