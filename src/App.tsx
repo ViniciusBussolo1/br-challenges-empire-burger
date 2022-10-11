@@ -11,6 +11,7 @@ import { Cardapio } from "./components/Cardapio/Cardapio";
 import { Atendimento } from "./components/Atendimento/Atendimento";
 import { Entregas } from "./components/Entregas/Entregas";
 import { Comentarios } from "./components/Comentarios/Comentarios";
+import { Instragram } from "./components/Instagram/Instagram";
 
 import "./styles/main.css";
 
@@ -47,6 +48,7 @@ function App() {
       <Cardapio />
       <Atendimento />
       <Comentarios />
+      <Instragram />
       <Entregas />
     </>
   );

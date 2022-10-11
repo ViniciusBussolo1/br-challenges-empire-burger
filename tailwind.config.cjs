@@ -15,6 +15,10 @@ module.exports = {
         "banner-cardapio": "url(src/assets/banner-menu.png)",
         "card-woman-eating": "url(src/assets/card-woman-eating.png)",
         "card-phone": "url(src/assets/card-phone.png)",
+        "linear-gradient-before":
+          "linear-gradient(270.22deg, rgba(33, 32, 27, 0) -2.7%, #21201B 88.44%)",
+        "linear-gradient-after":
+          "linear-gradient(270.22deg, #21201B 7.41%, rgba(33, 32, 27, 0) 91.38%)",
       },
       colors: {
         white: "#FFFFFF",

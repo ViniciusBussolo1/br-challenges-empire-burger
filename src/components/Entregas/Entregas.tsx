@@ -7,7 +7,7 @@ import Ifood from "../../assets/icons/ifood.svg";
 
 export function Entregas() {
   return (
-    <section className=" pt-[8.019rem]">
+    <section className=" pt-[8.019rem] mt-[8.4rem]">
       <div className="mx-auto max-w-[73.031rem] h-[33.478rem] flex items-center">
         <div className="bg-card-phone w-[35.625rem] h-full"></div>
 
