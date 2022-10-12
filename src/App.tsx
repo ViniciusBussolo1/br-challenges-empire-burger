@@ -12,6 +12,7 @@ import { Atendimento } from "./components/Atendimento/Atendimento";
 import { Entregas } from "./components/Entregas/Entregas";
 import { Comentarios } from "./components/Comentarios/Comentarios";
 import { Instragram } from "./components/Instagram/Instagram";
+import { Pedido } from "./components/Pedido/Pedido";
 
 import "./styles/main.css";
 
@@ -50,6 +51,7 @@ function App() {
       <Comentarios />
       <Instragram />
       <Entregas />
+      <Pedido />
     </>
   );
 }
