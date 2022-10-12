@@ -13,6 +13,7 @@ import { Entregas } from "./components/Entregas/Entregas";
 import { Comentarios } from "./components/Comentarios/Comentarios";
 import { Instragram } from "./components/Instagram/Instagram";
 import { Pedido } from "./components/Pedido/Pedido";
+import { Localization } from "./components/Localization/Localization";
 
 import "./styles/main.css";
 
@@ -52,6 +53,7 @@ function App() {
       <Instragram />
       <Entregas />
       <Pedido />
+      <Localization />
     </>
   );
 }
