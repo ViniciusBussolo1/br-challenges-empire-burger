@@ -14,6 +14,7 @@ import { Comentarios } from "./components/Comentarios/Comentarios";
 import { Instragram } from "./components/Instagram/Instagram";
 import { Pedido } from "./components/Pedido/Pedido";
 import { Localization } from "./components/Localization/Localization";
+import { Footer } from "./components/Footer/Footer";
 
 import "./styles/main.css";
 
@@ -54,6 +55,7 @@ function App() {
       <Entregas />
       <Pedido />
       <Localization />
+      <Footer />
     </>
   );
 }

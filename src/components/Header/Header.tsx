@@ -32,8 +32,13 @@ export function Header() {
           </ul>
         </nav>
         <div className="pr-20 flex gap-3 items-center">
-          <img src={Ifood} alt="Ifood" className="cursor-pointer w-8" />
-          <img src={Instagram} alt="Instagram" className="cursor-pointer w-8" />
+          <a href="">
+            <img src={Ifood} alt="Ifood" className="w-8" />
+          </a>
+          <a href="">
+            <img src={Instagram} alt="Instagram" className="w-8" />
+          </a>
+
           <div className="h-12 border-[1px] border-red"></div>
           <button className="bg-yellow w-32 h-8 flex justify-center items-center gap-2 px-4 py-1 rounded font-bold cursor-pointer ">
             <img src={Whatsapp} alt="whatsapp" className="h-5" /> Contato

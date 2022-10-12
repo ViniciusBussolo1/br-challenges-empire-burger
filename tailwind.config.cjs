@@ -38,6 +38,10 @@ module.exports = {
         "texto-funcionamento": "rgba(255, 255, 255, 0.85)",
         "titulo-cardapio": "#FAE4D0",
         "texto-comentario": "#635352",
+        "color-footer": "#3A210B",
+        "color-border-footer": "rgba(29, 6, 5, 0.15)",
+        "color-span-footer": "rgba(2, 14, 31, 0.69)",
+        "color-small-footer": "rgba(2, 14, 31, 0.3)",
       },
       dropShadow: {
         cardShadow: "0px 4px 40px rgba(179, 155, 132, 0.5)",

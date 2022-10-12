@@ -1,6 +1,6 @@
 export function Localization() {
   return (
-    <section className="pt-16">
+    <section className="pt-16" id="localization">
       <div className="h-[3.938] w-[27.735rem] mx-auto text-center">
         <h1 className="text-[2rem] leading-[2.188rem] uppercase font-Lilita text-black">
           Onde ficar a nosso castelo
