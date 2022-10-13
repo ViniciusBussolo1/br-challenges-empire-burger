@@ -1,6 +1,26 @@
+import { useEffect, useState } from "react";
+
 import { ItemCardapio } from "./ItemCardapio";
 
+import axios from "axios";
+
+interface ItemsProps {
+  plate: string;
+  price: number;
+  ingredients: string;
+}
+
 export function Cardapio() {
+  const [plate, setPlate] = useState<ItemsProps[]>([]);
+
+  useEffect(() => {
+    axios
+      .get("https://api.brchallenges.com/api/empire-burger/menu")
+      .then((resp) => {
+        setPlate(resp.data);
+      });
+  }, []);
+
   return (
     <section className="mt-[4rem] w-full flex" id="cardapio">
       <div className="bg-banner-cardapio w-[59.002rem] h-[35.957rem] pt-[10rem] pl-[23.438rem] pr-[6.84rem] pb-[11.645rem]">
@@ -26,29 +46,17 @@ export function Cardapio() {
           Cardápio imperial | Burger
         </h1>
 
-        <ItemCardapio
-          title="Classic burger"
-          content="Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata"
-          className="mt-[1.2rem]"
-        />
-
-        <ItemCardapio
-          title="Special big burger"
-          content="Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata"
-          className="mt-[2rem]"
-        />
-
-        <ItemCardapio
-          title="special big burger"
-          content="Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata"
-          className="mt-[2rem]"
-        />
-
-        <ItemCardapio
-          title="Mexican burger"
-          content="Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata"
-          className="mt-[2rem]"
-        />
+        {plate.map((item) => {
+          return (
+            <ItemCardapio
+              key={item.plate}
+              plate={item.plate}
+              ingredients={item.ingredients}
+              price={item.price}
+              className="mt-[1.2rem]"
+            />
+          );
+        })}
       </div>
     </section>
   );

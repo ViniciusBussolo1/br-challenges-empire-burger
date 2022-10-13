@@ -1,6 +1,29 @@
+import { useState } from "react";
 import Timer from "../../assets/icons/timer.svg";
 
 export function Ofertas() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const currentDate = new Date();
+  const currentDay = currentDate.getDay();
+  const currentHours = currentDate.getHours();
+
+  setInterval(() => {
+    if (currentDay >= 1 && currentDay <= 5) {
+      if (currentHours >= 17 && currentHours <= 23) {
+        setIsOpen(true);
+      } else {
+        setIsOpen(false);
+      }
+    } else if (currentDay === 0 || currentDay === 6) {
+      if (currentHours >= 18 && currentHours <= 23) {
+        setIsOpen(true);
+      } else {
+        setIsOpen(false);
+      }
+    }
+  }, 1000);
+
   return (
     <section id="ofertas" className="max-w-[73.185rem] mt-[9rem] mx-auto">
       <h1 className="text-[2rem] leading-[2.188rem] font-Lilita uppercase text-black">
@@ -55,7 +78,10 @@ export function Ofertas() {
       </div>
 
       <div className="mt-[4rem] flex items-center">
-        <div className="w-[35.625rem] h-[8.183rem] bg-color-button rounded-[0.625rem] py-[1.156rem] pl-[1.394rem] pr-[4.81rem] flex items-center justify-between">
+        <div className=" relative overflow-hidden w-[35.625rem] h-[8.183rem] bg-color-button rounded-[0.625rem] py-[1.156rem] pl-[1.394rem] pr-[4.81rem] flex items-center justify-between">
+          <div className="absolute top-[1rem] left-[-2.5rem] -rotate-45 py-[0.5rem] px-[3rem] text-[1rem] leading-[1.275rem] uppercase font-Lilita bg-titulo-cardapio text-texto">
+            {isOpen ? "Aberto" : "Fechado"}
+          </div>
           <div className=" bg-timer rounded-[3rem] h-[5.927rem] w-[5.927rem] flex justify-center items-center">
             <img src={Timer} alt="Timer" />
           </div>
