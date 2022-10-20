@@ -21,7 +21,7 @@ import "./styles/main.css";
 function App() {
   return (
     <>
-      <div className="bg-banner h-[34.063rem] w-full" id="home">
+      <div className="bg-banner w-full h-[34.063rem] " id="home">
         <Header />
         <Presentation />
         <div className="max-w-[60.625rem] h-[7.409rem] mx-auto bg-white rounded-[0.625rem] drop-shadow-cardShadow flex justify-around items-center">

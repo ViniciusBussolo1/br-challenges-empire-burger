@@ -31,7 +31,7 @@ export function Header() {
             </li>
           </ul>
         </nav>
-        <div className="pr-20 flex gap-3 items-center">
+        <div className="flex gap-3 items-center">
           <a href="">
             <img src={Ifood} alt="Ifood" className="w-8" />
           </a>
