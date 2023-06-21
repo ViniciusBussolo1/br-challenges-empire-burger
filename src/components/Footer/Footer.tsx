@@ -1,6 +1,6 @@
-import LogoFooter from "../../assets/logo-footer.svg";
-import Instagram from "../../assets/icons/instagram.svg";
-import Ifood from "../../assets/icons/ifood.svg";
+import LogoFooter from "/logo-footer.svg";
+import Instagram from "/icons/instagram.svg";
+import Ifood from "/icons/ifood.svg";
 
 export function Footer() {
   return (

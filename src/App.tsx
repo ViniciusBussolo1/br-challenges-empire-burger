@@ -2,9 +2,9 @@ import { Header } from "./components/Header/Header";
 import { Presentation } from "./components/Presentation/Presentation";
 import { Card } from "./components/Card/Card";
 
-import Burger from "../src/assets/icons/burger.svg";
-import HeadSet from "../src/assets/icons/headset.svg";
-import Delivery from "../src/assets/icons/delivery.svg";
+import Burger from "/icons/burger.svg";
+import HeadSet from "/icons/headset.svg";
+import Delivery from "/icons/delivery.svg";
 
 import { Ofertas } from "./components/Ofertas/Ofertas";
 import { Cardapio } from "./components/Cardapio/Cardapio";

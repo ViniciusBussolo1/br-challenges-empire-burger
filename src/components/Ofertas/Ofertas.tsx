@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Timer from "../../assets/icons/timer.svg";
+import Timer from "/icons/timer.svg";
 
 export function Ofertas() {
   const [isOpen, setIsOpen] = useState(false);

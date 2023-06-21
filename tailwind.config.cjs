@@ -8,13 +8,13 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        banner: "url(src/assets/banner-hero.png)",
-        "oferta-red": "url(src/assets/ofertas/oferta-1.png)",
-        "oferta-yellow": "url(src/assets/ofertas/oferta-2.png)",
-        "oferta-brown": "url(src/assets/ofertas/oferta-3.png)",
-        "banner-cardapio": "url(src/assets/banner-menu.png)",
-        "card-woman-eating": "url(src/assets/card-woman-eating.png)",
-        "card-phone": "url(src/assets/card-phone.png)",
+        banner: "url(/banner-hero.png)",
+        "oferta-red": "url(/ofertas/oferta-1.png)",
+        "oferta-yellow": "url(/ofertas/oferta-2.png)",
+        "oferta-brown": "url(/ofertas/oferta-3.png)",
+        "banner-cardapio": "url(/banner-menu.png)",
+        "card-woman-eating": "url(/card-woman-eating.png)",
+        "card-phone": "url(/card-phone.png)",
         "linear-gradient-before":
           "linear-gradient(270.22deg, rgba(33, 32, 27, 0) -2.7%, #21201B 88.44%)",
         "linear-gradient-after":

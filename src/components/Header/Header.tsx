@@ -1,7 +1,7 @@
-import Logo from "../../assets/logo.png";
-import Ifood from "../../assets/icons/ifood.svg";
-import Instagram from "../../assets/icons/instagram.svg";
-import Whatsapp from "../../assets/icons/whatsapp.svg";
+import Logo from "/logo.png";
+import Ifood from "/icons/ifood.svg";
+import Instagram from "/icons/instagram.svg";
+import Whatsapp from "/icons/whatsapp.svg";
 
 export function Header() {
   return (

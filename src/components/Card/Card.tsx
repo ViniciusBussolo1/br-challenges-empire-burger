@@ -1,6 +1,6 @@
 import { ImgHTMLAttributes } from "react";
 
-import Burger from "../../assets/icons/burger.svg";
+import Burger from "/icons/burger.svg";
 
 interface CardPros extends ImgHTMLAttributes<HTMLImageElement> {
   title: string;

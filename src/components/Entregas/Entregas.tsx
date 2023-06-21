@@ -1,9 +1,9 @@
 import { CardEntregas } from "./CardEntregas";
 
-import WhatsApp from "../../assets/icons/whatsapp.svg";
-import Delivery from "../../assets/icons/delivery.svg";
-import IceCream from "../../assets/icons/ice-cream.svg";
-import Ifood from "../../assets/icons/ifood.svg";
+import WhatsApp from "/icons/whatsapp.svg";
+import Delivery from "/icons/delivery.svg";
+import IceCream from "/icons/ice-cream.svg";
+import Ifood from "/icons/ifood.svg";
 
 export function Entregas() {
   return (

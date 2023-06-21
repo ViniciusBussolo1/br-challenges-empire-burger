@@ -1,4 +1,4 @@
-import Phone from "../../assets/icons/phone.svg";
+import Phone from "/icons/phone.svg";
 
 export function Pedido() {
   return (

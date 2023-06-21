@@ -1,11 +1,11 @@
-import Insta1 from "../../assets/instagram/insta1.jpg";
-import Insta2 from "../../assets/instagram/insta2.jpg";
-import Insta3 from "../../assets/instagram/insta3.jpg";
-import Insta4 from "../../assets/instagram/insta4.jpg";
-import Insta5 from "../../assets/instagram/insta5.jpg";
-import Insta6 from "../../assets/instagram/insta6.jpg";
-import Insta7 from "../../assets/instagram/insta7.jpg";
-import Insta8 from "../../assets/instagram/insta8.jpg";
+import Insta1 from "/instagram/insta1.jpg";
+import Insta2 from "/instagram/insta2.jpg";
+import Insta3 from "/instagram/insta3.jpg";
+import Insta4 from "/instagram/insta4.jpg";
+import Insta5 from "/instagram/insta5.jpg";
+import Insta6 from "/instagram/insta6.jpg";
+import Insta7 from "/instagram/insta7.jpg";
+import Insta8 from "/instagram/insta8.jpg";
 
 export function Instragram() {
   return (
